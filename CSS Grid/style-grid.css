@@ -1,0 +1,73 @@
+/*Grid 1 styles*/
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/*Grid 2 styles*/
+.gridTwo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+}
+.gridTwo > .item-one {
+    background-color: red;
+}
+.gridTwo > .item-two {
+    background-color: blue;
+}
+.gridTwo > .item-three {
+    background-color: yellow;
+}
+/*Grid 3 styles*/
+.gridThree {
+    width: 500px;
+    height: 300px;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+.gridThree > .grid-paragraph {
+    background-color: blueviolet;
+}
+.gridThree > .grid-image {
+    background-color: black;
+}
+.gridThree > .grid-image img {
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+}
+/*Grid 4 styles*/
+.gridFour {
+    width: 500px;
+    background-color: green;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+#right-left-text {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/*Grid 5 styles*/
+.gridFive {
+    background-color: bisque;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.gridFive > #right-left-img {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.gridFive > #right-left-img img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+/*Grid 6 styles*/
+.gridSix {
+    width: 500px;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.gridSix p {
+    font-family: "Big Shoulders Stencil", sans-serif;
+}
